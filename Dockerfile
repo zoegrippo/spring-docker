@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["java", "-jar", "/MySpringBoot-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/app/MySpringBoot-0.0.1-SNAPSHOT.jar"]
